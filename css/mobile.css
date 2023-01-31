@@ -1,0 +1,52 @@
+@media( max-width: 480px){
+    .container{
+        max-width: 480px;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        padding: 13px 36px 22px 27px;
+    }
+    
+    nav{
+        display: none;
+    }
+    section{
+        background-image: url(../photos/yannis-papanast.png);
+        margin-bottom: 98px;
+    }
+    h2{
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .cards{
+        flex-direction: column;
+        margin-left: 37px;
+        margin-bottom: 72px;
+    }
+    .card{
+        width: 246px;
+        height: 287px;
+    }
+    .gaqroba{
+        display: none;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .more{
+        font-size: 11px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .contact1{
+        width: 238px;
+        height: 37px;
+    }
+   
+}
